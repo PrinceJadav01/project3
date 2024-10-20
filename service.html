@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="abc.css">
+    <!--font-awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      @import url('https://font.googleapis.com/css?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+      *{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .navbar a{
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .navbar-toggle{
+        padding: 1px 5px;
+        font-size: 10;
+        line-height: 0.3;
+        background: #fff;
+      }
+
+      .w-100-height{
+        height: 90vh;
+        width: 100%;
+      }
+
+      .d-block w-100{
+        width: 100%;
+        
+      }
+
+      .carousel-item{
+        min-height: 300px;
+      }
+
+      .carousel-caption{
+        text-align: left;
+        margin-bottom: 200px;
+        z-index: 2;
+      }
+
+      .carousel-caption h5{
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        line-height: 60px;
+        text-align: left;
+      }
+
+      .carousel-caption p{
+        width: 60%;
+        font-size:16px ;
+        line-height: 1.9;
+        text-align: left;
+      }
+
+      .carousel-item .carousel-caption input{
+        padding: 0.73rem 1rem ;
+      }
+
+      .carousel-inner::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: 0;
+        background: rgba(0,0,0,0.6);
+
+      }
+
+      .bg-footer{
+        background-color: #000;
+        
+      }
+
+      .bg-footer a{
+        text-decoration: none;
+        color: #aeaeae;
+      }
+
+      .section-padding{
+        padding: 100px 0;
+      }
+    </style>
+  </head>
+  <body>
+    
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/photo/logo.jpg" alt="logo" class="w-40" style="width: 100px; height: 60px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ma-auto mb-2 mg-ig-0">
+            <li class="nav-item">
+              <a class="nav-link active mx-3" aria-current="page" href="index.html" target="_blank">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="popular.html" target="_blank">Popular</a>
+            </li>
+
+            <li class="nav-item"></li>
+              <a class="nav-link mx-3" href="service.html" target="_blank">Service</a>
+            </li>
+
+            <li class="nav-item"></li>
+              <a class="nav-link mx-3" href="blog.html" target="_blank">Blog</a>
+            </li>
+
+            <li class="nav-item"></li>
+              <a class="nav-link mx-3" href="review.html" target="_blank">Review</a>
+            </li>
+
+            <li class="nav-item"></li>
+              <a class="nav-link mx-3" href="question.html" target="_blank">Question</a>
+            </li>
+
+            <li class="nav-item"></li>
+              <a class="nav-link mx-3" href="login.html" target="_blank">Login</a>
+            </li>
+            
+            <li class="nav-item"></li>
+              <a class="nav-link btn text-white bg-dark px-3 rounded-0 mx-3" href="contact.html" target="_blank">Contact Us</a>
+            </li>
+
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+
+
+    <!--hero section-->
+
+    <section class="about section-padding" style="margin-top: 40px;">
+
+      <div class="text-center pb-5">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="d-flex">
+              <div class="about-img mx-2">
+                <img src="images/photo/about1.jpeg" alt="about-img" style="height: 400px;" class="img-fluid  mt-4">
+              </div>
+              <div class="about-img mx-2">
+                <img src="images/photo/about.jpeg" alt="about-img" style="height: 350px;" class="img-fluid ">
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5" style="margin-top:40px ;">
+            <div class="about-text">
+              <h2>Comfort is Our <br> Top Priority for Your</h2>
+              <p>Infinity Real Estate offers a comprehensive range of services designed to meet the diverse needs of our clients 
+                in the real estate market. We specialize in residential and commercial sales, providing expert guidance for buyers 
+                and sellers alike. Our property management services ensure that landlords can enjoy hassle-free ownership, 
+                while our detailed market analysis delivers valuable insights and accurate property valuations. We also offer 
+                dedicated buyer representation, tailored marketing strategies for sellers, and personalized consultations to 
+                navigate the complexities of real estate transactions. Additionally, our legal assistance ensures compliance and 
+                smooth processing of all documentation. Whether you’re looking to invest, buy, or sell, our team is committed to 
+                delivering exceptional support and building lasting relationships with our clients. At Infinity Real Estate, your 
+                success is our priority.</p>
+
+                  <a href="https://www.hommati.com/blog/what-are-the-different-types-of-real-estate-services-a-complete-guide" class="btn text-white bg-dark px-3 rounded-0">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+   
+
+    <!--footer-->
+    <footer class="bg-dark bg-footer" style="margin-top: 0px;">
+      <div class="container">
+        <div class="row">
+          <hr class="text-light">
+          <hr class="text-light">
+          <div class="col-lg-6">
+            <h5 class="text-light">About Us</h5>
+            <p class="text-light">Infinity Real Estate Company is dedicated to turning your property dreams into reality with 
+              exceptional service and local expertise. Our experienced team provides personalized support for buyers, sellers,
+               and investors alike. Trust us to guide you through every step of your real estate journey with integrity and 
+               innovation.</p>
+              <p class="text-light"><i class="fa fa-location"></i> 123 456 789</p>
+              <p class="text-light"><i class="fa fa-phone"></i> (92) 0325 123456789</p>
+              <p class="text-light"><i class="fa fa-envelope"></i> infinity29@gmail.com</p>
+          </div>
+
+          <div class="col-lg-3">
+            <h5 class="text-light">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="popular.html">Popular</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="review.html">Reviews</a></li>
+              <li><a href="question.html">Questions</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="text-light">Stay Connected</h5>
+            <ul class="list-unstyled">
+              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="https://in.linkedin.com/"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+              <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="https://x.com/?lang=en-in"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="text-center text-light">
+              Copyright &copy; 2024 <a href="#">Real Estate co</a>. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>  
